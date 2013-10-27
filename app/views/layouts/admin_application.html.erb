@@ -8,6 +8,10 @@
 </head>
 <body>
 <br>
+<%= link_to "Posts", admin_posts_path %>
+<%= link_to "Cats", admin_cats_path %>
+<%= link_to "Comments", admin_comments_path %>
+<br>
 <%= link_to "Sign out", destroy_user_session_path, :method => :delete%>
 <br>
 <%= yield %>
