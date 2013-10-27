@@ -17,7 +17,7 @@
     </data-source>
     <data-source source="LOCAL" name="Rails Blob: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="5f78a1b7-b52b-4ab4-bf31-157aee3a73d3">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/Blob_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql:Blob_development</jdbc-url>
       <user-name>Blob</user-name>
       <user-password>dfc8dfc6dfc5dfc8</user-password>
       <libraries>

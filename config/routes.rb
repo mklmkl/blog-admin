@@ -1,4 +1,6 @@
 Blob::Application.routes.draw do
+  devise_for :users
+
   resources :comments
 
   resources :posts
@@ -60,4 +62,11 @@ Blob::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  namespace :admin do
+    resources :posts
+    root 'posts#index'
+
+    resources :cats
+    resources :comments
+  end
 end
